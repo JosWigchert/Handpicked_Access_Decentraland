@@ -26,11 +26,11 @@ $ npm i -g decentraland
 Download this example and navigate to its directory, then run:
 
 ```
-$  dcl start
+$  dcl start --web3
 ```
 Any dependencies are installed and then the CLI opens the scene in a new browser tab.
 
-Add the following to the end of the URL in the browser window:
+Add the following to the end of the URL in the browser window (should be added when starting with --web3 argument):
 
 ```
 &ENABLE_WEB3
